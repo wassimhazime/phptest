@@ -1,0 +1,165 @@
+
+1-******** page template****
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+ 
+
+</body>
+</html>
+
+
+
+2- **** varibles -case  sensetive*****
+$var1=3;
+echo $var1
+echo "<br/>"
+$var2=1;
+echo $var1
+$var2=$var1
+
+
+2- ****** concat ******
+
+ echo 3+2
+$var.=var2;
+
+3- comment
+ // commnet
+ # comment
+ /*
+ comment
+ */
+
+
+4- math operation
++,-,* /$
+$var1=22;
+$var2=-2;
+echo (var+var2)*5
+functions
+pow(2,3)
+sqrt(23);
+fmod(10,2)
+rand() // any number
+rand(1,50) // range
+v-=3;  //v=v-3; 
+v--; v++;
+
+echo 1+"2";
+echo 1+"2 time";
+
+ 5- string
+
+$var2="hussein";
+echo $var1
+echo "hello". "word"
+echo "{$var} hussein"; /var in 
+
+call from different block
+echo "{$var} hussein"; /var in string
+
+
+6- string functions
+
+$temp1="hi";
+$temp2="test";
+strtolower
+strtolupper
+strlen
+trim("  a b c  ")."go"
+strstr($test,"admin")// start from admin
+str_replace("test","team","t")
+
+go to php.net
+
+
+7-float number number
+%var=3.4;
+var 4/10  == donot dive over zero
+
+
+round($vae,1)
+ceil($var1)
+floor($var);
+// checck type
+is_int($var)
+is_float($var2)
+is_numberic($s)
+
+8- arra
+$arr=array(4,3,9,"ahmed",array(2,3,4)); /empty
+1- array one type
+2-access index one []
+ or all by name "print_r(arrat)"
+ 3- put in idex data a[0]=4;
+ 4- add item
+ arra[]=33  // add to end
+5- put deferent type string int
+6-put array in array
+access a[row1][row2] /
+
+
+
+
+7- boolean
+$Is_married=true;
+echo is_bool($Is_married);
+is_float(var)
+
+8- check null
+$var1 = null;
+			$var2 = "";
+  is_null($var1) 
+ is_null($var2) 
+  echo is_null($var3) 
+ isset($var1); 
+
+9- type
+<?php $count = "5 times"; ?>
+		Type: <?php echo gettype($count); ?><br />
+		<?php $count += 3; ?>
+		Type: <?php echo gettype($count); ?><br />
+
+set type
+a-
+	<?php $count2 = (string) $count; ?>
+		count: <?php echo gettype($count); ?><br />
+		b-
+	<?php settype($count, "integer"); ?>
+
+
+
+
+10- include
+ include('page.php') //try to add
+  require('page.php') //have to be
+   include_once('page.php') //inclue the path one time and added to arry
+   //path if it reuqired agince it agnore it and use first one
+     require_once('page.php') //have to be
+
+11- header 
+http://php.net/manual/en/function.header.php
+header("localtion: index.html");
+
+12- json
+$data = /** whatever you're serializing **/;
+header('Content-Type: application/json');
+echo json_encode($data
+
+
+13- cookies
+setcookie("alx",22,time()+(60*60*24*7));
+//e,mpy
+setcookie("alx");
+setcookie("alx",NULL);
+echo  print_r($_COOKIE);
+
+
+
+
+
+
+

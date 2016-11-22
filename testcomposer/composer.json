@@ -1,0 +1,12 @@
+{
+    "name": "awa/slim3",
+    "authors": [
+        {
+            "name": "wassim hazime",
+            "email": "wassim@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.6"
+    }
+}
